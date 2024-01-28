@@ -143,6 +143,9 @@ footer {
   padding: 10px 0;
 }
 @media (max-width: 600px) {
+  h1 {
+    font-size: 18px; /* Ще менший розмір шрифту для дуже малих екранів */
+  }
   .left-side img, .right-side img {
     width: 150px;
     height: 250px;
@@ -180,6 +183,9 @@ footer {
       }
     }
     @media (max-width: 362px) {
+      h1 {
+        font-size: 8px; /* Ще менший розмір шрифту для дуже малих екранів */
+      }
   
         
       .logo {
@@ -210,3 +216,85 @@ footer {
       
         
         }
+        /* Для екранів шириною до 1200px */
+@media (max-width: 1200px) {
+  h1 {
+    font-size: 18px; /* Ще менший розмір шрифту для дуже малих екранів */
+  }
+  .logo {
+    width: 80px;
+    height: 80px;
+  }
+
+  header {
+    padding: 8px 0;
+  }
+
+  button {
+    padding: 8px 15px;
+    font-size: 15px;
+  }
+}
+
+/* Для екранів шириною до 960px */
+@media (max-width: 960px) {
+  h1 {
+    font-size: 18px; /* Ще менший розмір шрифту для дуже малих екранів */
+  }
+  .logo {
+    width: 70px;
+    height: 70px;
+  }
+
+  header {
+    padding: 6px 0;
+  }
+
+  button {
+    padding: 7px 12px;
+    font-size: 14px;
+  }
+}
+/* Для екранів шириною від 900 до 566 пікселів */
+@media (max-width: 900px) and (min-width: 566px) {
+  h1 {
+    font-size: 16px; /* Ще менший розмір шрифту для дуже малих екранів */
+  }
+  .logo {
+    width: 60px; /* Зменшення розміру логотипу */
+    height: 60px;
+    top: 5px;
+    left: 5px;
+  }
+
+  header {
+    padding: 8px 0; /* Зменшення відступів у шапці */
+  }
+
+  button {
+    padding: 7px 10px; /* Зменшення відступів для кнопок */
+    font-size: 13px; /* Зменшення розміру шрифту для кнопок */
+  }
+}
+
+/* Для екранів шириною до 566 пікселів */
+@media (max-width: 566px) {
+  h1 {
+    font-size: 11px; /* Ще менший розмір шрифту для дуже малих екранів */
+  }
+  .logo {
+    width: 50px; /* Ще більше зменшення розміру логотипу */
+    height: 50px;
+    top: 3px;
+    left: 3px;
+  }
+
+  header {
+    padding: 5px 0; /* Ще більше зменшення відступів у шапці */
+  }
+
+  button {
+    padding: 5px 8px; /* Ще більше зменшення відступів для кнопок */
+    font-size: 12px; /* Ще більше зменшення розміру шрифту для кнопок */
+  }
+}
