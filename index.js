@@ -12,3 +12,20 @@ function openModal(src) {
         modal.style.display = "none";
     }
 }
+document.querySelector(".kontacts").addEventListener("click", function() {
+    document.getElementById("contactModal").style.display = "block";
+});
+
+var contactModal = document.getElementById("contactModal");
+var contactSpan = contactModal.getElementsByClassName("close")[0];
+
+contactSpan.onclick = function() {
+    contactModal.style.display = "none";
+}
+
+window.onclick = function(event) {
+    if (event.target == contactModal) {
+        contactModal.style.display = "none";
+    }
+}
+
