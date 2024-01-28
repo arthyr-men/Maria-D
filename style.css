@@ -1,115 +1,96 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #e0f7fa;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #e0f7fa;
 }
 
 header {
-    
-   
-background-color: #26c6da;
-    
-   
-color: white;
-    
-    
+  background-color: #26c6da;
 
-   
-text-align: center;
-    
-   
-padding: 10px 0;
+  color: white;
+
+  text-align: center;
+
+  padding: 10px 0;
 }
-.logo{
-    width: 100px;
-    height: 100px;
-    position: absolute; 
-    top: 5px; 
-        left: 5px;   
+.logo {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 5px;
+  left: 5px;
 }
 button {
-    font-family: Arial, sans-serif;
-    
-   
-font-size: 16px;
-    
-   
-border: none;
-    
-   
-padding: 10px 20px;
-    
-   
-border-radius: 5px;
-    
-   
-cursor: pointer;
-    
-   
-transition: background-image 0.3s, transform 0.3s;
-    margin: 5px;
-    color: white; /* Білий текст для всіх кнопок */
-    background-image: linear-gradient(to right, #013b6f, #035a8d); /* Початковий градієнт */
+  font-family: Arial, sans-serif;
+
+  font-size: 16px;
+
+  border: none;
+
+  padding: 10px 20px;
+
+  border-radius: 5px;
+
+  cursor: pointer;
+
+  transition: background-image 0.3s, transform 0.3s;
+  margin: 5px;
+  color: white; /* Білий текст для всіх кнопок */
+  background-image: linear-gradient(
+    to right,
+    #013b6f,
+    #035a8d
+  ); /* Початковий градієнт */
 }
 
 button:hover {
-    background-image: linear-gradient(to right, #035a8d, #5eb1e1); /* Градієнт при наведенні */
-    
-   
-transform: scale(1.05); /* Збільшуємо кнопку */
+  background-image: linear-gradient(
+    to right,
+    #035a8d,
+    #5eb1e1
+  ); /* Градієнт при наведенні */
+
+  transform: scale(1.05); /* Збільшуємо кнопку */
 }
 
 .kontacts {
-    
-   
-background-color: #4CAF50; /* Зелений фон */
-    
-   
-color: white; /* Білий текст */
+  background-color: #4caf50; /* Зелений фон */
+
+  color: white; /* Білий текст */
 }
 
 .Pogoda {
-    
-   
-background-color: #2196F3; /* Синій фон */
-    color: white; /* Білий текст */
+  background-color: #2196f3; /* Синій фон */
+  color: white; /* Білий текст */
 }
 
 .language {
-    
-   
-background-color: #f44336; /* Червоний фон */
-    color: white; /* Білий текст */
+  background-color: #f44336; /* Червоний фон */
+  color: white; /* Білий текст */
 }
-.Dream_Background{
-    width: 100vw;
-    height: 100vh; 
-    position: fixed; 
-    top: 0;
-    left: 0;
-    z-index: -1;
+.Dream_Background {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
 }
 
 .main-content {
-    
-   
-padding: 20px;
-    
-    
-text-align: center;
+  padding: 20px;
+
+  text-align: center;
 }
 
 footer {
-    
-   
-background-color: #26c6da;
-    color: white;
-    
-    
-text-align: center;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    padding: 10px 0;
+  background-color: #26c6da;
+  color: white;
+
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 10px 0;
 }
