@@ -18,8 +18,9 @@ header {
   width: 100px;
   height: 100px;
   position: absolute;
-  top: 48px;
+  top: 5px;
   left: 5px;
+  right: 5px;
 }
 button {
   font-family: Arial, sans-serif;
@@ -94,3 +95,34 @@ footer {
   width: 100%;
   padding: 10px 0;
 }
+@media (max-width: 600px) {
+  
+ 
+    .logo {
+        
+       
+    width: 50px; /* Зменшуємо розмір логотипу */
+        height: 50px;
+        top: 2px;
+        left: 2px;
+      }
+    
+      
+     
+    header {
+        padding: 5px 0; /* Зменшуємо відступ у шапці */
+      }
+    
+      
+      
+    
+     
+    
+     
+    button {
+        padding: 5px 10px; /* Зменшуємо відступи для кнопок */
+        
+       
+    font-size: 14px; /* Зменшуємо розмір шрифту для кнопок */
+      }
+    }
